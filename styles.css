@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  background-color: bisque;
 }
 
 /* Common responsive box style */
@@ -43,11 +44,30 @@ body {
 
 .module-title-container{
   padding: 0px 10px;
-  border-bottom: 1px groove lightgray;
+  border-bottom: 1px groove gray;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .module-lesson-container{
   padding: 10px;
   font-size: 14px;
+  
+}
+
+.module-lesson {
+  padding: 10px;
+  font-weight: bold;
+  transition: all, 1s;
+  border-radius: 10px;
+}
+
+.module-lesson a{
+  text-decoration: none;
+  color: black;
+}
+
+.module-lesson:hover {
+  background-color: burlywood;
+
 }
