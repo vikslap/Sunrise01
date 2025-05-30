@@ -37,16 +37,15 @@ body {
   border: 2px transparent rgb(155, 46, 46);
   width: 80%;
 
-
 }
 
 .module-title-container{
-  padding: 10px;
-  border-bottom: 1px groove grey;
-  font-size: 12px;
+  padding: 0px 10px;
+  border-bottom: 1px groove lightgray;
+  font-size: 14px;
 }
 
 .module-lesson-container{
   padding: 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
