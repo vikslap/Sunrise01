@@ -56,18 +56,25 @@ body {
 }
 
 .module-lesson {
-  padding: 10px;
   font-weight: bold;
   transition: all, 1s;
-  border-radius: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
 .module-lesson a{
   text-decoration: none;
   color: black;
+  
 }
 
 .module-lesson:hover {
   background-color: burlywood;
 
+}
+
+.push-right{
+  margin-left: auto;
 }
